@@ -1,0 +1,332 @@
+@font-face {
+    font-family: arabswell_1;
+    src: url(../ArbFonts/ArbFONTS-23-arabswell_1.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+input {
+    /* font-family: "Poppins", sans-serif; */
+    font-family: arabswell_1;
+}
+
+main{
+    background: url(../images/body-bg.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    opacity: 1;
+    /* top: 0px;
+    left: 0px; */
+    width: 100vw;
+    height: auto;
+    /* z-index: -1;  */
+}
+
+.navbar{
+    box-shadow: 1px 1px 6px 1px #aaa;
+    /* height: 70px !important; */
+    background: url(../images/body-bg.png);
+}
+
+.navbar-brand{
+    color: #e72d29;
+}
+
+.navbar-brand:hover {
+    color: #e72d29;
+}
+
+.nav-link{
+    margin: 0 8px;
+}
+header{
+    background: url(../images/ar-search-bg.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-section h2.title {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #068843;
+}
+.banner-section h3.sub-title {
+    font-size: 33px;
+    line-height: 35px;
+    font-weight: bold;
+    color: #068843;
+    margin-top: 0px;
+}
+
+/* .boxes{
+    margin-top: 50px;
+} */
+
+/* .box{
+    background-color: #97b0d8;
+    height: 100px;
+    border-radius: 5px;
+    border: 2px solid #7399d6;
+} */
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0rem 5rem;
+    transition: all 0.2s 0.7s;
+    overflow: hidden;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.card-header{
+    color: #00a04a;
+}
+
+.title2{
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+i {
+    width: 1px;
+}
+
+.input-field {
+    max-width: 420px;
+    width: 100%;
+    background-color: #faf3efa1;
+    margin: 10px 0;
+    height: 55px;
+    border: 1px solid #b1792f65;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 1% 99%;
+    padding: 0 0.5rem;
+    position: relative;
+    font-family: arabswell_1;
+}
+
+.input-field input {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+    text-align: center;
+    font-family: arabswell_1;
+}
+
+select {
+    color: #aaa;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center!important;
+    width: 300px;
+    font-family: arabswell_1;
+}
+
+.input-field input::placeholder {
+    color: #aaa;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    font-family: arabswell_1;
+}
+
+.btn {
+    width: 150px;
+    background-color: #0e419290;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: arabswell_1;
+}
+
+.btn:hover {
+    background-color: #4d84e2;
+}
+
+
+.category-box h2.block-title {
+    color:#6d6e71;
+    border-left: 3px solid #6d6e71;
+}
+.category-box h2.block-title span {
+    font-weight: bold;
+}
+
+.category-lists .viewrow {
+    margin: 3% 1% 1%;
+    text-align: center;
+    border: 1px solid #1e6c45;
+    border-radius: 36px;
+    background: #fff;
+    box-shadow: 0px 0px 10px #929292;
+}
+
+
+
+.category-lists .viewrow a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 20px;
+}
+.category-lists .viewrow a span {
+    display: block;
+}
+.category-lists .viewrow .title {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    color:#6d6e71;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #00a04a;
+}
+.category-lists .viewrow .title a {
+    color:#6d6e71;
+}
+.category-lists .viewrow .totals {
+    color: #33b36e;
+    font-size: 17px;
+    line-height: 20px;
+}
+.category-lists .viewrow .totals a {
+    color: #33b36e;
+}
+
+/* ----------------- Boxes --------------------- */
+
+
+.statistics-box-area .statistics-row {
+    /* margin-right: 2.5%; */
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+
+.statistics-box-area .statistics-row a {
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.statistics-box-area .statistics-row .number-area>span {
+    display: block;
+}
+
+.statistics-box-area .statistics-row .title {
+    font-size: 18px;
+    line-height: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.statistics-box-area .statistics-row.green {
+    background: #458940;
+}
+
+.statistics-box-area .statistics-row.yellow {
+    background: #f39c11;
+}
+
+.statistics-box-area .statistics-row.mairoon {
+    background: #dc4c39;
+}
+
+.statistics-box-area .statistics-row.sky-blue {
+    background: #00c0ef;
+}
+
+.statistics-box-area .statistics-row.dark-blue {
+    background: #7e76ef;
+}
+
+.statistics-box-area .statistics-row.orange {
+    background: #e25a8c;
+}
+
+.logo-bottom{
+    width: 50%;
+}
+.footer-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    background: url(../images/footerbg.png) repeat 50% 50%;
+    background-size: cover;
+    bottom: 0;
+}
+
+@media only screen and (min-width:0px) and (max-width:991px) {
+    .logo-bottom{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px){
+header {
+    background-color: #b5b5b575;
+    background: url(../images/ar-search.png) no-repeat 0% 50%;
+    background-size: cover;
+}
+.banner-section h2.title {
+    font-size: 24px;
+    line-height: 23px;
+    padding-right: 80px;
+    max-width: 360px;
+    margin-bottom: 3px;
+}
+.banner-section h3.sub-title {
+    font-size: 18px;
+    line-height: 22px;
+    color: #068843;
+    max-width: 360px;
+    padding-right: 110px;
+}
+
+.banner-section h2.title {
+    padding-right: 0px;
+    padding-left: 80px;
+}
+
+.banner-section h3.sub-title {
+    padding-right: 0px;
+    padding-left: 80px;
+}
+}
+@media only screen and (max-width: 575px){
+    .statistics-row{
+        width: 40%;
+    }
+}
