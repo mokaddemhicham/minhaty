@@ -72,17 +72,6 @@ header{
     margin-top: 0px;
 }
 
-/* .boxes{
-    margin-top: 50px;
-} */
-
-/* .box{
-    background-color: #97b0d8;
-    height: 100px;
-    border-radius: 5px;
-    border: 2px solid #7399d6;
-} */
-
 form {
     display: flex;
     align-items: center;
@@ -283,7 +272,7 @@ select {
 .footer-wrapper {
     width: 100%;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     background: url(../images/footerbg.png) repeat 50% 50%;
     background-size: cover;
     bottom: 0;
