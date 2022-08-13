@@ -12,21 +12,21 @@
   <!-- ------------- Starting Nav Bar ------------- -->
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">بوابة المنح الجامعية</a>
+      <a class="navbar-brand" href="../../../index.php">بوابة المنح الجامعية</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+                  <a class="nav-link active" aria-current="page" href="../../../index.php">الرئيسية</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="#">تحميل طلب إعادة النظر</a>
               </li>
 
               <li class="nav-item">
-                  <a class="nav-link" href="page2.html">لوائح الممنوحين 2022</a>
+                  <a class="nav-link" href="../../../liste.php">لوائح الممنوحين 2022</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="#">اتصل بنا</a>
@@ -69,9 +69,9 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="js/js.js"></script>
-  <script src="js/jquery360.min.js" crossorigin="anonymous"></script>
-  <script src="js/sweetalert.all.min.js"></script>
-  <script src="js/controleur.js"></script> 
+  <script src="../../../assets/js/js.js"></script>
+  <script src="../../../assets/js/jquery360.min.js" crossorigin="anonymous"></script>
+  <script src="../../../assets/js/sweetalert.all.min.js"></script>
+  <script src="../../../assets/js/controleur.js"></script> 
 </body>
 </html>

@@ -1,17 +1,10 @@
 $("#lert").click(function() {
 
-    var cne = $("#cne").val();
     var anbac = $("#selectElementId").val();
     var type = $("#type").val();
+    var aref = $("#aref").val();
 
-    if (cne == "" || cne.length < 10) {
-        Swal.fire(
-            '<i style="font-size:20px;">Saisissez votre Cne ou Code massar</i>',
-            '<i style="color:#7066e0;">Contient 10 caractères<br>exemple &nbsp;:&nbsp; 1312345678 ou X123456789</i>',
-            'question'
-        );
-        return false;
-    } else if (anbac == 0) {
+    if (anbac == 0) {
         Swal.fire(
             '<i style="font-size:20px;">Sélectionnez votre Année du Bac</i>',
             '<i style="color:#7066e0;">Exemple : 2022 </i>',
@@ -22,6 +15,12 @@ $("#lert").click(function() {
         Swal.fire(
             '<i style="font-size:20px;">Sélectionnez votre Cycle d\'étude </i>',
             '<i style="color:#7066e0;">1er Cycle / Master / Doctorat</i>',
+            'question'
+        );
+        return false;
+    } else if (aref == 0) {
+        Swal.fire(
+            'اختر الاكاديمية الجهوية','',
             'question'
         );
         return false;

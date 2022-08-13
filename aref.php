@@ -11,49 +11,26 @@
 </head>
 <body>
   <!-- ------------- Starting Nav Bar ------------- -->
-  <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">بوابة المنح الجامعية</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0">
-              <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">تحميل طلب إعادة النظر</a>
-              </li>
-
-              <li class="nav-item">
-                  <a class="nav-link" href="liste.html">لوائح الممنوحين 2022</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">اتصل بنا</a>
-              </li>
-          </ul>
-      </div>
-    </div>
-  </nav>
+  <?php require_once "master/navbar.php"; ?>
   <!-- ------------- Ending Nav Bar ------------- -->
 
   <main class="pt-5 pb-4">
     <div class="container">
+    <img src="https://via.placeholder.com/970x40?text=---------- Ads Here ---------" class="img-fluid" width="100%" >
         <div class="card">
           <div class="card-header text-center py-3">
             الإطلاع على لوائح الممنوحين 2022 
           </div>
           <div class="card-body">
-            <form class="sign-up-form" method="get" action="liste/aref/ms/index.html" name="consultation">
+            <form class="sign-up-form" method="post" action="liste/aref/ms/index.php" name="consultation">
               <h2 class="title2" style="font-family: arabswell_1;"> الرجاء إدخال المعلومات التالية <br> Prière de
                 renseigner les champs suivants </h2>
         
-              <select class="input-field select tddroitecontenu" id="selectElementId" name="abac">
+              <select class="form-select text-center" aria-label="Default select example"id="selectElementId" name="abac">
                 <option value="0" selected="">Année d’obtention du Bac ⛥ سنة الحصول على الباك </option>
               </select>
         
-              <select class="input-field" name="type" id="type">
+              <select class="form-select text-center" aria-label="Default select example" name="aref" id="aref">
                 <optgroup label="">
                   <option value="0" selected=""> Region d'obtention de Bac ⛥ الأكاديمية الجهوية</option>
                   <option value="1">Casablanca - Settat ⛥   الدار البيضاء - سطات</option>
@@ -64,7 +41,7 @@
         
         
         
-              <input type="submit" class="btn transparent " id="lert" value="إِطَّــــــــلِـــــــــعْ" title="إِطَّــــــــلِـــــــــعْ">
+              <input type="submit" class="btn btn-primary " id="lert" value="إِطَّــــــــلِـــــــــعْ" title="إِطَّــــــــلِـــــــــعْ">
         
         
             </form>
@@ -89,9 +66,9 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="js/js.js"></script>
-  <script src="js/jquery360.min.js" crossorigin="anonymous"></script>
-  <script src="js/sweetalert.all.min.js"></script>
-  <script src="js/controleur.js"></script> 
+  <script src="assets/js/js.js"></script>
+  <script src="assets/js/jquery360.min.js" crossorigin="anonymous"></script>
+  <script src="assets/js/sweetalert.all.min.js"></script>
+  <script src="assets/js/controleur.js"></script> 
 </body>
 </html>
